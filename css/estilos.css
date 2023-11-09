@@ -10,6 +10,10 @@
 body {
   align-items: center;
   background: linear-gradient(45deg, #ffffff 0%,#000000 100%);
+  background-image: url(https://www.papeldeparede.etc.br/fotos/wp-content/uploads/Corinthians8-1024x640.jpg); /* Imagem de fundo */
+  background-repeat: no-repeat; /* Evitar repetição da imagem */
+  background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
+  background-position: center; /* Posição do fundo no centro */
   display: flex;
   justify-content: center;
   flex-direction: column;
